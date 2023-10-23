@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">Weather App</h1>
+      <form class="form">
+        <input type="text" placeholder="Enter a city" class="input" />
+        <button type="submit" class="btn">Show</button>
+      </form>
+    </header>
+    <main class="main">
+      <div class="card">
+        <div class="city-box">
+          <h2 class="city">London</h2>
+          <div class="country-box">
+            <p class="country">GB</p>
+          </div>
+        </div>
+        <div class="temperature-box">
+          <img src="./img/sunnyCloud.png" alt="sunnyCloud" class="img" />
+          <div class="text-box">
+            <h3 class="day">Monday</h3>
+            <h4 class="temperature">11&deg;C</h4>
+            <h5 class="description">Cloudy</h5>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="footer-text">Ulyanna 2023</p>
+    </footer>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
